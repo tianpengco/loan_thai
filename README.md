@@ -17,7 +17,7 @@
    ## 需求说明：
    
    ### 需要对接SDK
-   1.[OCR以及活体识别SDK--GuardianLivenessDetectionSDK]([https://www.lanhu.com](https://in.advance.ai/login))，对接简单，里面有详细的说明。OCR是走API的方式，可以参考接口文档，活体识别需要上报回调的活体照片。（登录需要账号，合同签署之后提供）
+   1.[OCR以及活体识别SDK--GuardianLivenessDetectionSDK](https://in.advance.ai/login)，对接简单，里面有详细的说明。OCR是走API的方式，可以参考接口文档，活体识别需要上报回调的活体照片。（登录需要账号，合同签署之后提供）
    2.[AppsFlyer SDK](https://www.appsflyer.com/cn/?utm_source=baidu&utm_medium=cpc&utm_campaign=pc-brandzone-title&utm_term=title) ,这是一个数据埋点，数据分析sdk，通过api上报各个节点，上报方案下面会有详细说明。（我方会提供apikey）
    3.需要通过AdvertisingIdClient获取googleId,然后在上报设备信息的时候上报该值,具体参考接口文档.
       依赖库:implementation 'androidx.ads:ads-identifier:1.0.0-alpha04'
